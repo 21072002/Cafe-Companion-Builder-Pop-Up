@@ -1,0 +1,39 @@
+{
+  "currentStatus": {
+    "occupancyPercent": 48,
+    "availableSeats": 18,
+    "totalSeats": 35,
+    "avgWaitMinutes": 4.5,
+    "activeBaristas": 3,
+    "roomVibe": "Focus & Flow (Warm hum, lo-fi beats, warm lighting)",
+    "soundLevelDb": 56,
+    "soundClassification": "Comfortable Ambient",
+    "optimalTimeBadge": "Great Time for Deep Work or Light Meetings"
+  },
+  "hourlyForecast": [
+    { "hour": "7:00 AM", "militaryHour": 7, "busyness": 20, "waitMin": 2, "vibe": "Serene Morning Dawn", "recommendedFor": "Solo espresso & reading" },
+    { "hour": "8:00 AM", "militaryHour": 8, "busyness": 65, "waitMin": 6, "vibe": "Morning Rush", "recommendedFor": "Quick pick-up" },
+    { "hour": "9:00 AM", "militaryHour": 9, "busyness": 88, "waitMin": 9, "vibe": "High Energy Buzz", "recommendedFor": "Pre-order recommended" },
+    { "hour": "10:00 AM", "militaryHour": 10, "busyness": 72, "waitMin": 7, "vibe": "Lively Co-Working", "recommendedFor": "Social meetups" },
+    { "hour": "11:00 AM", "militaryHour": 11, "busyness": 45, "waitMin": 4, "vibe": "Balanced Flow", "recommendedFor": "Ideal study / focus window" },
+    { "hour": "12:00 PM", "militaryHour": 12, "busyness": 82, "waitMin": 8, "vibe": "Lunchtime Spark", "recommendedFor": "Sandwiches & Bowls" },
+    { "hour": "1:00 PM", "militaryHour": 13, "busyness": 68, "waitMin": 6, "vibe": "Active Midday", "recommendedFor": "Post-lunch coffee" },
+    { "hour": "2:00 PM", "militaryHour": 14, "busyness": 40, "waitMin": 3.5, "vibe": "Quiet Golden Hour", "recommendedFor": "Prime creative session" },
+    { "hour": "3:00 PM", "militaryHour": 15, "busyness": 55, "waitMin": 5, "vibe": "Afternoon Tea Chime", "recommendedFor": "Matcha & Pastry pause" },
+    { "hour": "4:00 PM", "militaryHour": 16, "busyness": 38, "waitMin": 3, "vibe": "Deep Focus", "recommendedFor": "Long reading / writing" },
+    { "hour": "5:00 PM", "militaryHour": 17, "busyness": 30, "waitMin": 2.5, "vibe": "Dusk Acoustic", "recommendedFor": "Unwinding & gentle catchup" },
+    { "hour": "6:00 PM", "militaryHour": 18, "busyness": 22, "waitMin": 2, "vibe": "Mellow Twilight", "recommendedFor": "Decaf, herbal tea & quiet" }
+  ],
+  "bestTimeRecommendations": [
+    {
+      "period": "Morning Quiet Window",
+      "timeRange": "10:45 AM - 11:45 AM",
+      "reason": "Post-morning rush lull. 65% seating available, baristas ready for artisan pour-overs with 3-minute turnaround."
+    },
+    {
+      "period": "Afternoon Focus Nirvana",
+      "timeRange": "2:00 PM - 3:30 PM",
+      "reason": "Sunlight fills the west gallery. Lowest acoustic noise (52 dB), perfect bandwidth, mellow music."
+    }
+  ]
+}

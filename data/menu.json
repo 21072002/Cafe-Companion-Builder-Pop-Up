@@ -1,0 +1,175 @@
+{
+  "categories": [
+    { "id": "espresso", "name": "Specialty Espresso", "icon": "☕" },
+    { "id": "pourover", "name": "Slow Bar & Single Origin", "icon": "🫖" },
+    { "id": "botanical", "name": "Botanical, Teas & Matcha", "icon": "🍵" },
+    { "id": "bakery", "name": "Artisanal Bakery", "icon": "🥐" },
+    { "id": "savory", "name": "Wholesome Savory & Bowls", "icon": "🥗" }
+  ],
+  "items": [
+    {
+      "id": "item_1",
+      "name": "Amber Honey Oat Flat White",
+      "category": "espresso",
+      "price": 5.50,
+      "description": "Double ristretto over velvety micro-foamed oat milk infused with raw wildflower honey and smoked sea salt.",
+      "flavorNotes": ["Wild Honey", "Smoked Toffee", "Velvety Oat"],
+      "caffeineLevel": "High",
+      "prepTimeSec": 130,
+      "tags": ["Popular", "Plant-based friendly"],
+      "dietary": ["Vegetarian"],
+      "customizable": {
+        "temperature": ["Hot", "Iced"],
+        "milk": ["Oat Milk", "Almond Milk", "Pistachio Milk", "Whole Milk"],
+        "sweetness": ["Unsweetened", "Light (25%)", "Standard (50%)", "Full (100%)"],
+        "shots": ["Single", "Double (Default)", "Triple (+1.00)", "Decaf"]
+      },
+      "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_2",
+      "name": "Cascara Cloud Cold Brew",
+      "category": "espresso",
+      "price": 6.00,
+      "description": "18-hour single-origin slow cold brew crowned with silky cascara cherry whipped cold foam and orange zest.",
+      "flavorNotes": ["Cherry Blossoms", "Dark Cocoa", "Candied Orange"],
+      "caffeineLevel": "Very High",
+      "prepTimeSec": 90,
+      "tags": ["Staff Pick", "Refreshing"],
+      "dietary": ["Gluten-Free", "Vegetarian"],
+      "customizable": {
+        "temperature": ["Iced"],
+        "milk": ["Cold Foam (Oat)", "Cold Foam (Dairy)", "No Foam"],
+        "sweetness": ["Unsweetened", "Light (25%)", "Standard (50%)"],
+        "shots": ["Standard Cold Brew", "Draft Nitro (+0.75)"]
+      },
+      "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_3",
+      "name": "Spanish Saffron Cortado",
+      "category": "espresso",
+      "price": 5.25,
+      "description": "Equal parts rich espresso and condensed cardamom milk with real saffron threads. Intensely aromatic.",
+      "flavorNotes": ["Saffron", "Cardamom", "Toasted Pecan"],
+      "caffeineLevel": "Medium",
+      "prepTimeSec": 120,
+      "tags": ["Artisan Craft"],
+      "dietary": ["Vegetarian", "Gluten-Free"],
+      "customizable": {
+        "temperature": ["Hot", "Iced"],
+        "milk": ["Whole Milk", "Oat Milk"],
+        "sweetness": ["Light", "Standard", "Less Sweet"],
+        "shots": ["Double (Standard)", "Decaf"]
+      },
+      "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_4",
+      "name": "Ethiopia Yirgacheffe V60 Pour-Over",
+      "category": "pourover",
+      "price": 6.50,
+      "description": "Washed heirloom lot. Delicately hand-poured with blooming temperature precision. Jasmine and peach notes.",
+      "flavorNotes": ["Jasmine Florals", "White Peach", "Meyer Lemon"],
+      "caffeineLevel": "Medium-High",
+      "prepTimeSec": 240,
+      "tags": ["Single Origin", "Slow Bar"],
+      "dietary": ["Vegan", "Gluten-Free", "Sugar-Free"],
+      "customizable": {
+        "temperature": ["Hot", "Flash Chilled (+0.50)"],
+        "grindProfile": ["Standard Filter", "Fine Extraction"],
+        "strength": ["Delicate (1:16)", "Balanced (1:15)", "Intense (1:14)"]
+      },
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_5",
+      "name": "Ceremonial Uji Matcha Latte",
+      "category": "botanical",
+      "price": 5.75,
+      "description": "First-harvest stone-ground Kyoto matcha whisked to order with warm oat milk and touch of pure vanilla bean.",
+      "flavorNotes": ["Sweet Umami", "Spring Grass", "Creamy Vanilla"],
+      "caffeineLevel": "Smooth Focus (L-Theanine)",
+      "prepTimeSec": 150,
+      "tags": ["Calm Focus", "Superfood"],
+      "dietary": ["Vegan", "Gluten-Free"],
+      "customizable": {
+        "temperature": ["Hot", "Iced"],
+        "milk": ["Oat Milk (Recommended)", "Almond Milk", "Whole Milk"],
+        "sweetness": ["Unsweetened", "Light (Vanilla)", "Sweet"],
+        "matchaGrade": ["Ceremonial (Standard)", "Imperial Extra Shot (+1.50)"]
+      },
+      "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_6",
+      "name": "Blueberry Hibiscus Sparkler",
+      "category": "botanical",
+      "price": 4.85,
+      "description": "Cold-steeped ruby hibiscus blossoms, crushed wild Maine blueberries, sparkling mineral water, and fresh mint sprig.",
+      "flavorNotes": ["Tart Cranberry", "Crushed Berry", "Crisp Mint"],
+      "caffeineLevel": "Zero Caffeine",
+      "prepTimeSec": 60,
+      "tags": ["Zero Caffeine", "Hydrating"],
+      "dietary": ["Vegan", "Gluten-Free"],
+      "customizable": {
+        "temperature": ["Iced"],
+        "sweetness": ["Tart / Unsweetened", "Agave Touch", "Sweet"],
+        "effervescence": ["Gently Sparkling", "Extra Fizz"]
+      },
+      "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_7",
+      "name": "Pistachio Rosewater Croissant",
+      "category": "bakery",
+      "price": 4.95,
+      "description": "Twice-baked butter croissant filled with house-ground Sicilian pistachio frangipane and scented with Damask rose glaze.",
+      "flavorNotes": ["Toasted Nut", "Flaky Butter", "Subtle Rose"],
+      "caffeineLevel": "None",
+      "prepTimeSec": 75,
+      "tags": ["Bestseller", "Freshly Baked"],
+      "dietary": ["Vegetarian"],
+      "customizable": {
+        "warming": ["Warm & Crisp (Recommended)", "Room Temp"],
+        "service": ["Dine-In Plate", "To-Go Bag"]
+      },
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_8",
+      "name": "Avocado & Yuzu Tartine",
+      "category": "savory",
+      "price": 8.75,
+      "description": "Toasted seeded sourdough, smashed Hass avocado, Japanese yuzu kosho, pickled shallots, microgreens, and toasted sesame.",
+      "flavorNotes": ["Bright Citrus", "Creamy Avocado", "Seeded Crunch"],
+      "caffeineLevel": "None",
+      "prepTimeSec": 180,
+      "tags": ["Wholesome", "High Energy"],
+      "dietary": ["Vegan", "Dairy-Free"],
+      "customizable": {
+        "egg": ["No Egg", "Poached Farm Egg (+1.50)", "Soft-boiled Egg (+1.50)"],
+        "bread": ["Seeded Sourdough", "Gluten-Free Brioche (+1.00)"],
+        "spice": ["Mild Yuzu", "Extra Spicy Kosho"]
+      },
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "item_9",
+      "name": "Truffled Mushroom & Gruyère Toastie",
+      "category": "savory",
+      "price": 9.50,
+      "description": "Slow-braised cremini and shiitake mushrooms with aged Swiss Gruyère, thyme butter, and white truffle essence on pain de mie.",
+      "flavorNotes": ["Earthy Truffle", "Melted Nutty Cheese", "Crisp Thyme"],
+      "caffeineLevel": "None",
+      "prepTimeSec": 220,
+      "tags": ["Comfort Food", "Chef Special"],
+      "dietary": ["Vegetarian"],
+      "customizable": {
+        "pressing": ["Well Toasted & Crispy", "Gently Melted"],
+        "side": ["Herb Sea Salt Chips", "Baby Arugula Salad"]
+      },
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}

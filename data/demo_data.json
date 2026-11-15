@@ -1,0 +1,202 @@
+{
+  "orders": [
+    {
+      "id": "ORD-104",
+      "customerName": "Elena R.",
+      "customerAvatar": "👩‍💻",
+      "tableNumber": 3,
+      "orderType": "Dine-In",
+      "status": "Brewing",
+      "statusStep": 2,
+      "placedAt": "10:52 AM",
+      "estimatedWaitMin": 3.5,
+      "items": [
+        {
+          "name": "Amber Honey Oat Flat White",
+          "mods": "Hot, Oat Milk, Standard Sweetness, Double Ristretto",
+          "price": 5.50
+        },
+        {
+          "name": "Pistachio Rosewater Croissant",
+          "mods": "Warmed & Crispy",
+          "price": 4.95
+        }
+      ],
+      "total": 10.45
+    },
+    {
+      "id": "ORD-105",
+      "customerName": "Marcus T.",
+      "customerAvatar": "👨‍🎨",
+      "tableNumber": 7,
+      "orderType": "To-Go",
+      "status": "Ready",
+      "statusStep": 3,
+      "placedAt": "10:48 AM",
+      "estimatedWaitMin": 0.5,
+      "items": [
+        {
+          "name": "Cascara Cloud Cold Brew",
+          "mods": "Cold Foam (Oat), Light Sweetness",
+          "price": 6.00
+        }
+      ],
+      "total": 6.00
+    },
+    {
+      "id": "ORD-106",
+      "customerName": "Devon & Sam",
+      "customerAvatar": "🧑‍🔬",
+      "tableNumber": 12,
+      "orderType": "Dine-In",
+      "status": "In Queue",
+      "statusStep": 1,
+      "placedAt": "10:55 AM",
+      "estimatedWaitMin": 5.0,
+      "items": [
+        {
+          "name": "Ceremonial Uji Matcha Latte",
+          "mods": "Iced, Oat Milk, Unsweetened",
+          "price": 5.75
+        },
+        {
+          "name": "Avocado & Yuzu Tartine",
+          "mods": "Poached Farm Egg, Seeded Sourdough",
+          "price": 10.25
+        }
+      ],
+      "total": 16.00
+    }
+  ],
+  "socialPatrons": [
+    {
+      "id": "patron_1",
+      "name": "Liam Vance",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "table": "Table 4 (Window Bar)",
+      "presence": "Open to Chat",
+      "presenceColor": "emerald",
+      "currentFocus": "Designing an offline-first mobile app for nature journaling 🌿",
+      "interests": ["UI/UX Design", "Indie Hacking", "Specialty Coffee", "Hiking"],
+      "coffeeDrink": "Ethiopia Yirgacheffe V60",
+      "icebreakerPrompt": "Ask Liam about his favorite minimalist app designs or where he gets single-origin beans!"
+    },
+    {
+      "id": "patron_2",
+      "name": "Maya Chen",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+      "table": "Table 8 (Central Wood Table)",
+      "presence": "Co-Working / Collab",
+      "presenceColor": "amber",
+      "currentFocus": "Researching multimodal AI agents & fine-tuning small language models 🤖",
+      "interests": ["Machine Learning", "Python", "Sci-Fi Books", "Matcha Enthusiast"],
+      "coffeeDrink": "Ceremonial Uji Matcha Latte",
+      "icebreakerPrompt": "Ask Maya what she thinks about local AI agents or trade sci-fi book recommendations!"
+    },
+    {
+      "id": "patron_3",
+      "name": "Dr. Aris Thorne",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "table": "Table 2 (Corner Booth)",
+      "presence": "Silent Focus Buddy",
+      "presenceColor": "violet",
+      "currentFocus": "Writing chapter 4 of a historical fiction novel set in 1920s Vienna ✍️",
+      "interests": ["Creative Writing", "History", "Chess", "Cortados"],
+      "coffeeDrink": "Spanish Saffron Cortado",
+      "icebreakerPrompt": "Silent accountability partner. Give a respectful nod or challenge to a 10-minute speed chess game!"
+    },
+    {
+      "id": "patron_4",
+      "name": "Sora & Kaito",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=200&q=80",
+      "table": "Table 11 (Communal High-Top)",
+      "presence": "Open to Chat",
+      "presenceColor": "emerald",
+      "currentFocus": "Organizing the Sunday Morning City Run & Roastery Hop 🏃‍♂️☕",
+      "interests": ["Running / 5K", "Photography", "Music Production", "Pastry Lovers"],
+      "coffeeDrink": "Cascara Cloud Cold Brew",
+      "icebreakerPrompt": "Ask them about the upcoming weekend scenic 5k trail route starting right outside the café!"
+    }
+  ],
+  "corkboard": [
+    {
+      "id": "cork_1",
+      "title": "Wednesday Evening Board Game & Pour-over Club",
+      "author": "Marcus (Barista)",
+      "date": "Every Wed • 6:30 PM",
+      "tag": "Events",
+      "desc": "Join us for casual Catan, Wingspan, and special single-origin micro-lots brewed tableside."
+    },
+    {
+      "id": "cork_2",
+      "title": "Local Book Swap Box",
+      "author": "Community Corner",
+      "date": "Always Open",
+      "tag": "Exchange",
+      "desc": "Take a book, leave a book. Currently on shelf: 'Klara and the Sun', 'Atomic Habits', 'Design Systems'."
+    },
+    {
+      "id": "cork_3",
+      "title": "Looking for Frontend React Dev for Coffee Tech Hackathon",
+      "author": "Maya Chen",
+      "date": "Posted 2h ago",
+      "tag": "Collab",
+      "desc": "Building a smart sensor app for micro-roasters. Stop by Table 8 if you'd like to jam!"
+    }
+  ],
+  "roomPulse": {
+    "liveSentimentScore": 93,
+    "sentimentTrend": "+4% vs yesterday",
+    "acousticsDb": 56,
+    "acousticsStatus": "Optimal Ambient (Focus & Conversation)",
+    "temperatureF": 70.5,
+    "currentPlaylist": "Café Lo-Fi & Mellow Brazilian Bossa Nova",
+    "currentBpm": 74,
+    "staffAlerts": [
+      {
+        "id": "alert_1",
+        "level": "info",
+        "title": "Cold Brew Surge (+42%)",
+        "message": "Sunny midday shift caused sudden Cold Brew spike. Prep Keg #2 before 12:30 PM rush.",
+        "action": "Dismiss"
+      },
+      {
+        "id": "alert_2",
+        "level": "warning",
+        "title": "Zone B Acoustic Drift (63 dB)",
+        "message": "Blender noise compounding with espresso grinder near pick-up counter. Suggest lower speaker volume at counter zone.",
+        "action": "Adjusted"
+      },
+      {
+        "id": "alert_3",
+        "level": "success",
+        "title": "Positive Vibe Streak",
+        "message": "Last 12 customer feedback submissions gave 5/5 stars on hospitality and ambient comfort.",
+        "action": "Celebrate"
+      }
+    ],
+    "recentFeedback": [
+      {
+        "customer": "Guest at Table 4",
+        "rating": 5,
+        "sentiment": "Positive",
+        "text": "The saffron cortado with the lo-fi beats is absolute perfection. Getting 3 hours of deep coding done!",
+        "time": "12m ago"
+      },
+      {
+        "customer": "Guest at Bar",
+        "rating": 5,
+        "sentiment": "Positive",
+        "text": "Barista knew exactly which bean to suggest when I asked for floral notes. Outstanding knowledge.",
+        "time": "28m ago"
+      },
+      {
+        "customer": "Guest at Table 9",
+        "rating": 4,
+        "sentiment": "Neutral",
+        "text": "Coffee was amazing! A slight draft near the patio door, but otherwise super cozy.",
+        "time": "45m ago"
+      }
+    ]
+  }
+}
