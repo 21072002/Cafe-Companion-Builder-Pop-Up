@@ -92,7 +92,7 @@
 ### 1. Start the Server
 Open a terminal in the project directory:
 ```powershell
-cd C:\Users\yadwa\.gemini\antigravity\scratch\cafe-companion
+cd "PATH"
 python server.py
 ```
 
